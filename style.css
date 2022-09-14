@@ -133,7 +133,7 @@
     border-left-color: rgb(222, 192, 21);
     border-left-width: 10px;
     background-color: white;
-    box-shadow: 0 5px 5px -2px rgb(176, 175, 175);
+    box-shadow: 6px 5px 5px -2px rgb(176, 175, 175);
     gap: 50px;
     border-radius: 5px;
     padding-left: 35px;
@@ -164,7 +164,7 @@ img[src="favorite.png"] {
 .announcements, .trending {
     background-color: white;
     grid-column: 2;
-    box-shadow: 0 5px 5px -2px rgb(176, 175, 175);
+    box-shadow: 6px 8px 5px -2px rgb(176, 175, 175);
     border-radius: 5px;
 }
 
