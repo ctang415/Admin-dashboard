@@ -4,7 +4,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .header, .maincontent {
@@ -120,15 +120,39 @@
     grid-column: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 30px;
 }
 
 .project {
+    border-left-style: solid;
+    border-left-color: rgb(222, 192, 21);
+    border-left-width: 10px;
     background-color: white;
     box-shadow: 0 5px 5px -2px rgb(176, 175, 175);
     gap: 50px;
     border-radius: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top:20px;
 }
+
+.project > img {
+    width: 25px;
+    margin-top: 90px;
+    float: bottom;
+    padding: 15px;
+}
+
+img[src="favorite.png"] {
+    margin-left: 118px;
+}
+
+.projecttext{
+    color: grey;
+}
+
+
+
 
 .announcements, .trending {
     background-color: white;
@@ -161,7 +185,6 @@ hr {
 .trending {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    align-self: center;
     padding: 30px;
 }
 
